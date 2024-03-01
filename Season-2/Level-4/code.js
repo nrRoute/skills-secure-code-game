@@ -49,6 +49,7 @@ app.post("/ufo", (req, res) => {
         replaceEntities: true,
         recover: true,
         nonet: false,
+        noent: true,
       });
 
       console.log("Received XML data from XMLon:", xmlDoc.toString());
